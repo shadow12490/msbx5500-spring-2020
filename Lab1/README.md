@@ -1,6 +1,6 @@
 # Lab 1
 
-## Learning Objectives
+# Learning Objectives
 
 * review how the job market looks
 * get feet wet with python jupyter notebooks and the insanity that is the current landscape of the new hotness for the same
@@ -8,58 +8,143 @@
 * practice learning things on your own, together
 
 
-I want you to fork this repo, *make a copy of this file (leave this copy alone so that it can be updated!)*, and fill out the 
-below very-length-list of things to do. Use the github flow feature-branch pull-request method to ask me for feedback.
+# Deliverables for this lab
 
-I'll have you merge this file if I change it.
+There are check-boxes throughout this document next to "deliverables." In whatever you submit, mark the deliverable as "completed" by putting an `x` between the open
+brackets in the raw markdown. Like so: `[x]`.
 
-The next time we meet, we'll share experiences and lessons learned from working on this lab.
-
-
-### Note-taking 
-
-Key to completing this lab is to log like me -- 
-
-* [ ] learn how to think and learn like me, via writing a "madman's flow of consciousness log"
-	* [ ] keep a log of struggles that you have for each task, mini questions that you have, paths you explore for answering that task
-	* [ ] when I begin a large task, the key for me is to identify mini, conquerable subtasks that will help me complete the bigger task. 
-       I have to articulate what I do not know, and then I have to learn how to learn that. I have to gather domain vocabulary words and phrases 
-       in order to do better information searches. I have to learn to become discerning in my information search. And I have to get good at really rough note-taking.
-       
-Please keep your notes in markdown-format in your repo for this class. Me reviewing it will help me help you learn. We'll talk more about this.
+Subject to change, let's try having you copy the contents of this file into a markdown file in your own repo. Edit your copy.
 
 
 
-## Deliverable
+# Getting un-stuck
 
-### demonstrate skills
-* [ ] create a github account
-* [ ] create a web presence on github where you can display your work
-	* [ ] use jekyll for a dead-simple-yet-impressive blogging website
-* [ ] learn github
-	* [ ] learn github flow
-	* [ ] learn to keep a changelog
-* [ ] learn markdown
-* [ ] learn git
-* [ ] do sagemaker tutorial
-	* [ ] next time, we will deploy an endpoint and make predictions!
-		* [ ] in the later future, we will make an endpoint for doing fraud prediction, and modify it to have an api that we can hit from a website we make!
-			* [ ] in the later future after that, we will use sagemaker studio!
-				* [ ] in the later future after that, we will use our laptops to power a small satellite!
-* [ ] do colab tutorial
-* [ ] do a kaggle tutorial for python machine learning
+If you get stuck with any overwhelming class, use the "think-aloud" protocol (look it up) with yourself. Write out your feelings, write out what you're confused
+about, write about your immediate and mid-range project goals. Good grammar is not important here. Just give an outlet to your mind.
 
-### Gain knowledge and become conversant in...
-This section is about not sounding and looking like an idiot when talking about business analytics in e.g. interview or networking setting
+Also look into Rubber-Duck Debugging.
 
-* [ ] how does the job market look
-	* [ ] what keywords do you find that are most related to business analytics -- e.g., data analyst, machine learning, 
-	* [ ] for those jobs, what skills are being asked for? what kinds of skills?
-	* [ ] for those job skills,
-		* [ ] which do you feel that you already have, and that you can demonstrate that you have?
-		* [ ] which do you think are within-reach?
-	* [ ] what tentative goals do you want to set for yourself for this semester for how to become a stronger job candidate?
-* [ ] read Business Analytics chapters that help them answer the questions:
+You are welcome to ask me to attempt to think-aloud myself.
+
+If you get stuck, open an issue on the class github repo. 
+
+Or, if you'd like me to comment on your work, you could ask me to review a PR that you create on a github repo that you own.
+
+
+
+# Tooling
+
+
+## Github
+
+### Create a github account
+
+Create an account. Old people say "if you want a job, you must make a good LinkedIn profile." I say pfft. Make a good github (or other hosted code repo) 
+profile instead and sk8 or die.
+
+* Set a nice profile picture for yourself.
+* Set your name and organizational affiliation
+
+
+
+### Join the class github stuff
+
+1. From canvas, get a link to the class github "team", and join/request to join it.
+1. Once you are a member of the team, you can view the class repo, linked on canvas.
+
+
+### Make a personal repo for your work for this class
+
+* add me `deargle` as a collaborator. You can fork the class repo. Or not.
+
+
+### Create a stupid-easy online web presence.
+
+Jekyll is static-site generator, written in Ruby. GitHub Pages integrates with Jekyll. GitHub Pages will auto-render your repo into html files. You can select a theme, for minimal fuss and muss.
+
+Make a [GitHub Pages](https://pages.github.com/) site. You can make either a "personal" page or you can make a "project" page. Make either one. Which one you make depends on what name you give your repository.
+
+If you follow the steps above and make a "project" page, then the instructions will include a way for auto-using a jekyll "theme" -- and it will also generate a default index.md file for you. Try both! Ask questions
+on the class repo if your feeble mind can't grasp the schnazzy of this.
+
+Here I am, documenting everything I told you you'd have to figure out for yourself. Go figure out the rest!
+
+
+
+### Learn Markdown
+
+Markdown is life. You can use markdown on Github, amongst other places. Check out [this github guide](https://guides.github.com/features/mastering-markdown/) to github-flavored markdown.
+
+
+
+### Learn Git
+
+Okay, you can just use the [GitHub Desktop](https://desktop.github.com/) client, although warning, I have no idea how it works. But you should eventually learn `git` for terminal if you're l33t.
+
+
+- [ ] **Deliverable:** Show me a GitHub Pages-hosted website -- both the live version, and also the markdown source code. I dunno, have fun.
+
+
+
+
+
+## Jupyter
+
+Jupyter is everywhere. I want you to try it in several places.
+
+
+### Jupyter via Anaconda
+
+Anaconda is a python distribution with science-y python libraries pre-compiled and ready-to-go. Very very complicated to compile some of the science-oriented python libraries on Windows otherwise.
+
+Install it!
+
+Then, using Anaconda Navigator, install/launch ~jupyter~ JupyterLab. JupyterLab looks like Jupyter 2.0. Might as well go with the new hotness.
+
+You are now running jupyter on your laptop. 
+
+
+### Jupyter lots of other places
+
+But there are many other places that will let you run jupyter notebooks on their infrastructure. Let's visit and dabble with each of them so that we can say we did.
+
+* [Amazon SageMaker](https://aws.amazon.com/sagemaker/)
+* [Google Colab](https://colab.research.google.com)
+* [Microsoft Azure Notebooks](https://notebooks.azure.com/)
+
+- [ ] **Deliverable:** Demonstrate somehow that you've used each of these notebook services.
+
+
+Kaggle also has hosted jupyter notebooks. [Kaggle also has good python-for-datascience tutorials](https://www.kaggle.com/learn/python). Do the first seven (!) or so.
+
+- [ ] **Deliverable:** Show me somehow that you've gone through all the kaggle tutorials.
+
+
+## Job Market
+
+Check Canvas for our collaborative Google doc. Help keep that doc up-to-date with good (1) search query tactics for each site (key terms, filters, etc), as well as (2) good job postings for the greater Denver
+area. Also keep notes for yourself, in whatever form you like. Both the shared document and your personal notes should be living documents -- keep them up to date through your job search process.
+
+What job requirements stand out to you in the postings that you see:
+* what requirements can you _demonstrate competency in_ already?
+* what requirements can you _speak intelligently_ about?
+* which requirements do you think you already have within-reach?
+
+* what tentative goals do you want to set for yourself for this semester for how to become a stronger job candidate?
+
+Which jobs are the most interesting to you? Why?
+
+- [ ] **Deliverable:** Show me what method you are using to manage your job search process.
+
+
+
+# Gain Knowledge and Become Conversant in...
+It is Very Important to not sound and look like an idiot when talking about business analytics in e.g. interview or networking settings.
+
+After this lab, you should be _conversant_ in the following areas. Deliverable: write up little elevator-pitch-length responses to questions such as the following.
+
+
+* [ ] read the chapters from the Business Analytics book that will help you answer questions such as the following:
 	* [ ] what is business analytics?
 	* [ ] why learn about business analytics if the job role won't be an analyst -- what job roles involve analytics?
 	* [ ] what is predictive analytics? what is supervised analytics, and what is unsupervised analytics?
