@@ -9,6 +9,11 @@ Filtering the listings by experience level was somewhat helpful. Collected vario
 technologies that we may add to our portfolios in order to signal intelligence and
 with-it-ism.
 
+We played a bit with github, and had the students join the class "repo." Github Teams is
+better than a shared private repo, because collaborators on private repos by default
+all have push access to the repo, and I do not trust my students to not unintentionally
+or otherwise wreck the class repo. Github Teams allows more granular access permissions.
+
 Will meet again this week to discuss invidiual goals and progress with and for job applications,
 and also to discuss potential side projects.
 
