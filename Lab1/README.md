@@ -115,9 +115,11 @@ But there are many other places that will let you run jupyter notebooks on their
 - [ ] **Deliverable:** Demonstrate somehow that you've used each of these notebook services.
 
 
-Kaggle also has hosted jupyter notebooks. [Kaggle also has good python-for-datascience tutorials](https://www.kaggle.com/learn/python). Do the first seven (!) or so.
+Kaggle also has hosted jupyter notebooks. [Kaggle also has good python-for-datascience tutorials](https://www.kaggle.com/learn/). Do the first seven (!) or so -- up to the TensforFlow one. These will take a while, but should be very good get-feet-wet introductions.
 
-- [ ] **Deliverable:** Show me somehow that you've gone through all the kaggle tutorials.
+![image](https://user-images.githubusercontent.com/1174653/72477008-de7eab00-37ab-11ea-8806-65867f58ab61.png)
+
+- [ ] **Deliverable:** Show me somehow that you've gone through all the kaggle tutorials. Get as far as you can. Take notes on what you'd like to talk more about.
 
 
 ## Job Market
