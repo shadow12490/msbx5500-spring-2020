@@ -1,3 +1,4 @@
 # msbx5500-spring-2020
 
-This class is dang hard just kidding I don't know what we're going to do but I can promise it will be _hard_
+## Cool tricks
+* [How to upload images to github and get a markdown link that you can use in your own markdown files](https://gist.github.com/vinkla/dca76249ba6b73c5dd66a4e986df4c8d)
