@@ -1,4 +1,4 @@
-# 1/14/2020
+# 1/13/2020
 
 Dave soliloquied about think-aloud protocol and rubber duck programming for
 working through tough problems and writing and debugging code.
@@ -19,3 +19,10 @@ and also to discuss potential side projects.
 
 Triscuits were popular but seriously who eats barbeque chips at 9am. Next
 time will be triscuits, apples, and cheese sticks.
+
+# 1/15/2020
+
+Interviews with each student during office hours. Goal was to check in with each student
+about their job-search status, desires, etc. Students exhorted to have at least three-ish
+actual job postings in mind, and to build out portfolio for those jobs. Dave attempted
+to light a fire under proverbial students to get them to start applying _now_.
