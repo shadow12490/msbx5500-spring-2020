@@ -71,7 +71,8 @@ on the class repo if your feeble mind can't grasp the schnazzy of this.
 
 Here I am, documenting everything I told you you'd have to figure out for yourself. Go figure out the rest!
 
-
+- [x] stupid easy web presence is set up
+![](images/github_pages_ss.png)
 
 ### Learn Markdown
 
