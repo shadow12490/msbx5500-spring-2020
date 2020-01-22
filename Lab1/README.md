@@ -15,7 +15,7 @@ brackets in the raw markdown. Like so: `[x]`.
 
 Subject to change, let's try having you copy the contents of this file into a markdown file in your own repo. Edit your copy.
 
-[x] Repo copied to desktop.
+- [x] Repo copied to desktop.
 
 # Getting un-stuck
 
@@ -43,9 +43,9 @@ Create an account. Old people say "if you want a job, you must make a good Linke
 profile instead and sk8 or die.
 
 * Set a nice profile picture for yourself.
-	[x] done
+- [x] done
 * Set your name and organizational affiliation
-	[x] done
+- [x] done
 
 
 ### Join the class github stuff
@@ -57,7 +57,7 @@ profile instead and sk8 or die.
 ### Make a personal repo for your work for this class
 
 * add me `deargle` as a collaborator. You can fork the class repo. Or not.
-	[x] done, deargle added as collaborator
+- [x] done, deargle added as collaborator on new fork 1/22
 
 
 ### Create a stupid-easy online web presence.
