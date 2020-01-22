@@ -71,8 +71,7 @@ on the class repo if your feeble mind can't grasp the schnazzy of this.
 
 Here I am, documenting everything I told you you'd have to figure out for yourself. Go figure out the rest!
 
-- [x] stupid easy web presence is set up
-![](images/github_pages_ss.png)
+- [x] stupid easy web presence is set up 1/22
 
 ### Learn Markdown
 
@@ -85,10 +84,11 @@ Markdown is life. You can use markdown on Github, amongst other places. Check ou
 Okay, you can just use the [GitHub Desktop](https://desktop.github.com/) client, although warning, I have no idea how it works. But you should eventually learn `git` for terminal if you're l33t.
 
 
-- [ ] **Deliverable:** Show me a GitHub Pages-hosted website -- both the live version, and also the markdown source code. I dunno, have fun.
+- [x] *Deliverable:* Show me a GitHub Pages-hosted website -- both the live version, and also the markdown source code. I dunno, have fun.
 
 
-
+![](../images/github_pages_ss.png)
+* source code/repo: https://github.com/shadow12490/shadow12490.github.io
 
 
 ## Jupyter
@@ -123,6 +123,7 @@ Kaggle also has hosted jupyter notebooks. [Kaggle also has good python-for-datas
 ![image](https://user-images.githubusercontent.com/1174653/72477008-de7eab00-37ab-11ea-8806-65867f58ab61.png)
 
 - [ ] **Deliverable:** Show me somehow that you've gone through all the kaggle tutorials. Get as far as you can. Take notes on what you'd like to talk more about.
+
 
 
 ## Job Market
