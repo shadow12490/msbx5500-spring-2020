@@ -102,9 +102,13 @@ Anaconda is a python distribution with science-y python libraries pre-compiled a
 
 Install it!
 
+- [x] Anaconda installed [eventually] (1/22)
+
 Then, using Anaconda Navigator, install/launch ~jupyter~ JupyterLab. JupyterLab looks like Jupyter 2.0. Might as well go with the new hotness.
 
 You are now running jupyter on your laptop. 
+
+- [x] JupyterLab launched from my laptop (1/22)
 
 
 ### Jupyter lots of other places
@@ -116,6 +120,7 @@ But there are many other places that will let you run jupyter notebooks on their
 * [Microsoft Azure Notebooks](https://notebooks.azure.com/)
 
 - [ ] **Deliverable:** Demonstrate somehow that you've used each of these notebook services.
+- [x] Browsed each site and clicked around a little (1/22)
 
 
 Kaggle also has hosted jupyter notebooks. [Kaggle also has good python-for-datascience tutorials](https://www.kaggle.com/learn/). Do the first seven (!) or so -- up to the TensforFlow one. These will take a while, but should be very good get-feet-wet introductions.
@@ -140,9 +145,9 @@ What job requirements stand out to you in the postings that you see:
 
 Which jobs are the most interesting to you? Why?
 
-- [ ] **Deliverable:** Show me what method you are using to manage your job search process.
+- [x] **Deliverable:** Show me what method you are using to manage your job search process.
 
-
+* I use an excel sheet that tracks applications, job titles, and dates, but I don't have that set up for my full time search just yet. (1/22)
 
 # Gain Knowledge and Become Conversant in...
 It is Very Important to not sound and look like an idiot when talking about business analytics in e.g. interview or networking settings.
