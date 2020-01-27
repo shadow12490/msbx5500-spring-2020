@@ -108,16 +108,12 @@ You are now running jupyter on your laptop.
 
 But there are many other places that will let you run jupyter notebooks on their infrastructure. Let's visit and dabble with each of them so that we can say we did.
 
-* [Amazon SageMaker](https://aws.amazon.com/sagemaker/)
+* [Amazon SageMaker](https://aws.amazon.com/sagemaker/) 
+  ([Do this tutorial](https://aws.amazon.com/getting-started/tutorials/build-train-deploy-machine-learning-model-sagemaker/))
 * [Google Colab](https://colab.research.google.com)
 * [Microsoft Azure Notebooks](https://notebooks.azure.com/)
 
 - [ ] **Deliverable:** Demonstrate somehow that you've used each of these notebook services.
-
-## AWS SAGEMAKER TUTORIAL
-
-Link for the super awesome AWS SageMaker Tutorial:
-[Here is the tutorial!](https://aws.amazon.com/getting-started/tutorials/build-train-deploy-machine-learning-model-sagemaker/)
 
 Kaggle also has hosted jupyter notebooks. [Kaggle also has good python-for-datascience tutorials](https://www.kaggle.com/learn/). Do the first seven (!) or so -- up to the TensforFlow one. These will take a while, but should be very good get-feet-wet introductions.
 
