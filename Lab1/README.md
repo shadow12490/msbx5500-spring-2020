@@ -119,7 +119,12 @@ But there are many other places that will let you run jupyter notebooks on their
 * [Google Colab](https://colab.research.google.com)
 * [Microsoft Azure Notebooks](https://notebooks.azure.com/)
 
-- [ ] **Deliverable:** Demonstrate somehow that you've used each of these notebook services.
+- [x] **Deliverable:** Demonstrate somehow that you've used each of these notebook services.
+- screenshots below:
+
+![](../images/pt_sagemaker_ss.png)
+![](../images/pt_colab_ss.png)
+![](../images/pt_azure_ss.png)
 
 
 Kaggle also has hosted jupyter notebooks. [Kaggle also has good python-for-datascience tutorials](https://www.kaggle.com/learn/). Do the first seven (!) or so -- up to the TensforFlow one. These will take a while, but should be very good get-feet-wet introductions.
