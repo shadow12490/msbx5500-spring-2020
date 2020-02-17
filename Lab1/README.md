@@ -72,6 +72,7 @@ on the class repo if your feeble mind can't grasp the schnazzy of this.
 Here I am, documenting everything I told you you'd have to figure out for yourself. Go figure out the rest!
 
 - [x] stupid easy web presence is set up 1/22
+- [ ] make web presence a little less stupid easy
 
 ### Learn Markdown
 
@@ -168,11 +169,29 @@ It is Very Important to not sound and look like an idiot when talking about busi
 After this lab, you should be _conversant_ in the following areas. Deliverable: write up little elevator-pitch-length responses to questions such as the following.
 
 
-* [ ] read the chapters from the Business Analytics book that will help you answer questions such as the following:
-	* [ ] what is business analytics?
-	* [ ] why learn about business analytics if the job role won't be an analyst -- what job roles involve analytics?
-	* [ ] what is predictive analytics? what is supervised analytics, and what is unsupervised analytics?
-	* [ ] what is a target? what are features? What are dependent variables, and independent variables?
-	* [ ] what is a model?
-* [ ] what is jupyter, how does it relate to python, where can one find a jupyter, contrast with anaconda and local notebooks
-* [ ] what is AWS, what is sagemaker, how does it compare with google Colab
+* [x] read the chapters from the Business Analytics book that will help you answer questions such as the following:
+	* [x] what is business analytics?
+		* Business analytics is the umbrella term covering a field focused on understanding past business data to gain insight. The process of collating, sorting, processing, and studying business data to transform it to "business insights" [Source](https://www.microstrategy.com/us/resources/introductory-guides/business-analytics-everything-you-need-to-know)
+	* [x] why learn about business analytics if the job role won't be an analyst -- what job roles involve analytics?
+		* It's important to have an understanding of what would be going on in your business analytics world, especially if you were required to communicate with an analytics team. Mostly so you don't sound like an idiot when they use "technical" terms, but also because everyone dabbles in "analytics" in some way shape or form.
+	* [x] what is predictive analytics? what is supervised analytics, and what is unsupervised analytics?
+		* **Predictive analytics** - the practice of extracting information from existing data sets in order to dtermine patterns and predict future outcomes and trends.
+		* **Supervised vs unsupervised analytics** - supervised refers learning techniques to find the relationship between independent variables and dependent output variables. Unsupervised refers to learning techniques that group instances without a specified target attribute. Source: book
+	* [x] what is a target? what are features? What are dependent variables, and independent variables?
+		* **target** - also: dependent variable - the variable your model is trying to predict
+		* **features** - also: attribute - quanitity describing an instance. Has domain defined by the attribute type. Common types:
+			* categorical - finite number of discrete variables
+			* continuous
+		* **independent var** - also: features - input variable
+		* **dependent var** - output variable, result
+	* [x] what is a model?
+		* **model** - structure and corresponding interpretation that summarizes (or partially summarizes) a set of data for description or prediction. Examples: classifiers, regressors, inputs, etc.
+* [x] what is jupyter, how does it relate to python, where can one find a jupyter, contrast with anaconda and local notebooks
+	* Jupyter Notebook - an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text
+		* It relates to python because notebooks can be written in the python language. 
+	* Anaconda - platform/toolset with tools for data scientists. 
+
+* [x] what is AWS, what is sagemaker, how does it compare with google Colab
+	* AWS - Amazon Web Services
+		* Sagemaker - a fully managed service that provides every developer and data scientist with the ability to build, train, and deploy machine learning (ML) models quickly
+		* Colab - Google's free online Jupyter notebook environment
