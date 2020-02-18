@@ -66,6 +66,62 @@ next Monday.
 Had intended to start with the kaggle credit card fraud dataset, but did not get to it. Want to start by next class. Also
 want to give them quick ways to put up markdown versions of their R or python analyses / write-ups. Gists, .md, the like.
 
+# 2/10/2020
+
+* Brief 5-minute job-application update 
+    - How to describe one's self -- "What is my degree? What is my specialty?"
+    * What is my degree? What is my specialty?
+        * business analytics
+        * machine learning
+        * predictive analytics
+        * (business) data scientist ?
+        * data analyst
+            * SQL, including with python
+            * summary statistics
+            * data munging (feature engineering)
+            * pretty graphs
+                * bars
+                * line charts
+                * pie charts are stupid and inefficient, but pie charts
+        * security analyst is incident response / forensics / wireshark
+            * you do security **analytics**, not **security analyst**
+            * business data analyst with emphasis in security data contexts 
+                * _security business questions_
+
+* Student asked, "What are Random Forests?"
+    * Decision trees
+        * how to avoid overfitting?!
+        * how to decide which feature to split on?
+        * which features to include?
+        * hyperparameterization?
+            - which features? (a subset? maybe some are very highly correlated?)
+            - how many features?
+            - what settings?!
+    * Random Forests sidestep these decisions
+* Student asked, "What is XGBoost?"
+    - We practiced learning things by reading wikipedia. We read about XGBoost and "gradient boosting." We now understand xgboost and generally how it works
+      but this was extremely taxing on our brains. Math is hard.
+* How to skim a textbook?
+    - Fast to slow:
+        1. Read only introduction / forward, read table of contents, read summary chapter if present, at end
+        2. Read chapter headings and subheadings plus chapter introductions and summaries
+        3. Take note of the major examples and themes used in each chapter
+        4. Write down questions that come up, and use the textbook as an encyclopedia look-up tool.
+* Concept quiz:
+    - The input of a machine learning algorithm is what?
+        * "Labeled" dataset
+            - Where "labeled" refers to the target
+        * Independent and dependent variables
+            - I.e., "features" and "target"
+            - Vector of `X`, `y`.
+    - What is a "machine learning" algorithm?
+        * Classifiers: decision tree, random forest, logistic regression, etc
+    - What is the output of running a machine learning algorithm?
+        * A _model_
+        * Some function _F_
+
+
+
 # 2/17/2020
 
 *   jekyll website help.
@@ -94,3 +150,10 @@ want to give them quick ways to put up markdown versions of their R or python an
 *   We reviewed my analytics-class slide decks on choosing a good `k` for `k`-nearest-neighbors. This led to a discussion on overfitting, underfitting, cross-validation, etc. 
     Impromptu used slide decks from my ugrad analytics class to lecture-discuss on material. Also discussed regularization for regression -- lasso and ridge.
     -   We also briefly alluded to k-means-clustering. Many students still are fuzzy on what exactly is unsupervised machine learning.
+*   We briefly discussed different distance metrics for knn. Euclidian vs Jaccard. Meant to also talk about cosine but didn't get to it. Diverged into market basket analysis, question was asked,
+    how does amazon make its recommendations? We listed a few different kinds of recommendations they make:
+    1.  Similar products, for comparison-shopping purposes
+        -   This could be "distances between products"
+    2.  "Customers who bought this also bought:" (add all to cart)
+        - Just match the particular item with purchase histories of people who have also bought this. Sort by frequency of co-purchase?
+        - Bayesian probability for all items given that another item is purchased? Could be updated at purchase time.
