@@ -65,3 +65,32 @@ next Monday.
 
 Had intended to start with the kaggle credit card fraud dataset, but did not get to it. Want to start by next class. Also
 want to give them quick ways to put up markdown versions of their R or python analyses / write-ups. Gists, .md, the like.
+
+# 2/17/2020
+
+*   jekyll website help.
+    -   we learned that many garbage jekyll themes exist on the internet. One student paid for one, and it's pretty good. 
+        Another moved to minimalmistakes, open-source and extremely configurable, and it's pretty good. 
+        Before, two students were themes that were essentially broken -- usually the url insertion was wrong, missing a / in some places etc. 
+        Incompatible with GithubPage. 
+    -   Two students wrestled for a bit (hours) during office hours with getting Ruby installed on their machine so that they could serve 
+        their sites locally. Iteration was much faster once they had that set up. Ruby version is important. WSL on windows with ubuntu makes ruby pretty easy, but
+        is not strictly necessary.
+    -   Another student was having troubles with his website looking weird on github but rendering normally locally. The issue was that he was not using 
+        github_pages gem locally, and was using a different markdown processor, so things were not looking the same locally as on github. 
+        Lesson learned was to emphasize the use of github pages gem locally
+    -   A student had a similar problem where his theme was using jekyll-paginator-v2, which is not githubpages-compatible. Lesson learned was to find themes which are github-pages compatible.
+    -   Takeaway is that this "easy" assignment is not easy. Flesh out a guardrails assignment that points students towards either paid themes or something vetted like minimalmistakes which are
+        supported and github-pages-compatible.
+*   A student asked a question about a k-nearest-neighbors R assignment from their Advanced Analytics class. Their class example had used `knnreg`, which is for regression, 
+    while their homework assignment was with classification. The example code included printing the "mean" of the knnreg predictions, which threw an error for the 
+    homework quiz problem because means can't be taken on binomial factors. We explored the functions' online documentation, and learned that R has (at least) 
+    two libraries which provide knn -- `class` and `caret`. The function signatures are completely different. And the `class` variant can provide classification-based knn. 
+    We also tried to get probability predictions from `class:knn` but after some confusion and delay we realized that the probability-estimates that it reports are relative 
+    to the class that it reports as "winning" the prediction -- unlike `sklearn` where one probability-estimate is provided for each class separately. 
+    Therefore we could not easily apply our own cutoff threshold. We despaired at the non-standard APIs for machine learning in R.
+    -   Relatedly, I despaired that students are not reading my class-related blog posts. 
+        I have decided to fail all students unless they read my blog. My class-related blog posts are a sort of textbook for the class.
+*   We reviewed my analytics-class slide decks on choosing a good `k` for `k`-nearest-neighbors. This led to a discussion on overfitting, underfitting, cross-validation, etc. 
+    Impromptu used slide decks from my ugrad analytics class to lecture-discuss on material. Also discussed regularization for regression -- lasso and ridge.
+    -   We also briefly alluded to k-means-clustering. Many students still are fuzzy on what exactly is unsupervised machine learning.
