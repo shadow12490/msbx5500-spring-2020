@@ -26,9 +26,7 @@ Also, read these recent posts on my blog.
 This lab is confusing
 ---------------------
 
-Your mom.
-
-I'm exhausted after making the example notebook. Submit pull requests that modify this lab writeup. If you can do everything I did in the lab write-up,
+Submit pull requests that modify this lab writeup. If you can do everything I did in the lab write-up,
 then mission accomplished.
 
 * if as_frame parameter is not working in fetch_openml, then your scikit-learn is probably out of date.
@@ -36,7 +34,7 @@ then mission accomplished.
 		> conda list scikit-learn
 	* update version:
 		> pip install -U scikit-learn
-	* from: https://scikit-learn.org/stable/install.html
+	* [Source](https://scikit-learn.org/stable/install.html)
 
 
 
