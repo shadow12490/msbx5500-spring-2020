@@ -44,8 +44,9 @@ Deliverables
 
 Open a github "Issue" _for each lab deliverable bullet listed below_, and CC me. I will close the issue when you have completed the deliverable to my satisfaction.
 
-* A jupyter notebook that does all of the things at the top of this lab document. Your notebook should be well-commented. You can either use code
+* A Jupyter notebook that does all of the things at the top of this lab document. Your notebook should be well-commented. You can either use code
+	[x] [Jupyter Notebook](https://github.com/shadow12490/msbx5500-spring-2020/blob/master/Lab3/Telesca_MSBX5500_Lab3.ipynb)
   comments, or you can use markdown jupyter cells. Your final product should be something you're comfortable sharing as a portfolio piece.
 * Do at least one pull request to improve this lab write-up.
-
+	[x] Submitted pull request on patch-1 branch to update "global" lab3 document.
 
