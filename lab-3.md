@@ -1,7 +1,8 @@
 Lab 3: Script-kiddie machine learning model fitting and evaluation
 ==================================================================
 
-* task uses one dataset, credit card fraud. load using fetch_openml
+* task uses one dataset, credit card fraud. 
+	* load using fetch_openml
 * use sklearn pipeline from that one example for test-train-split, preprocessing and fitting
 * fit 3 different classifiers models (e.g., logistic regression, SVM, decision tree) with their defaults
 * plot the three models on a ROC curve and on a precision-recall curve
