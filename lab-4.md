@@ -35,7 +35,9 @@ app on there forever without getting charged unless you explicitly enable billin
 
 Some tips and tricks:
 *   Go through a heroku python tutorial
+	* https://devcenter.heroku.com/articles/getting-started-with-python
 *   Go through a flask quickstart
+	* https://flask.palletsprojects.com/en/1.1.x/quickstart/
 *   In the flask quickstart, you will see references to `flask run` commands, sometimes prefaced by environmental vars.
     I am using a trick where I put my local env vars in a `.env` file, and then I "source" that `.env` file to get its
     contents written to my... environment. This is the contents of my `.env` file:
