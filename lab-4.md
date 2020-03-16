@@ -73,5 +73,5 @@ Open a github issue pointing me to your heroku public url and also to a github u
 - [x] Deliverable 1 - repo at https://github.com/shadow12490/msbx5500_lab4
 - [x] Deliverable 2 - public URL: https://ancient-scrubland-47327.herokuapp.com/predict
 
-![](../images/pt_lab4_ss.png)
+![](./images/pt_lab4_ss.png)
    
