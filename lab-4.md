@@ -67,5 +67,9 @@ Some tips and tricks:
 # Deliverable
 
 Using a dataset of your choice, go through the steps of deploying a model. Keep the features simple. You can fork and use my malware network traffic dataset.
+
 Open a github issue pointing me to your heroku public url and also to a github upload of your heroku app.
+
+- [x] Deliverable 1 - repo at https://github.com/shadow12490/msbx5500_lab4
+- [x] Deliverable 2 - public URL: https://ancient-scrubland-47327.herokuapp.com/predict
    
